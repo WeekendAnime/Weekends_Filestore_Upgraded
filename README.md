@@ -1,8 +1,8 @@
 An Edited Version Of Codedlix Repository 
 
-```@Anime_Weekends
+@Anime_Weekends
 @JeffreySama
-@rohit_1888```
+@rohit_1888
 
 
 **If you need any more modes in repo or If you find out any bugs, mention in <b>[sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/Weebs_Weekends)  ➻  [Jҽϝϝɾҽყ ʂαɱα](https://t.me/JeffreySama) </b>**
