@@ -102,13 +102,13 @@ async def start_command(client: Client, message: Message):
                     await snt_msg.delete()
                 except:
                     pass
-            await notification_msg.edit("<b>Your file has been successfully deleted! 😼</b>")
+            await notification_msg.edit("<b>уσυя fιℓє нαѕ вєєи ѕυccєѕѕfυℓℓу ∂єℓєтє∂! ♻️</b>")
     else:
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⚡️ ᴀʙᴏᴜᴛ", callback_data="about"),
-                    InlineKeyboardButton("🍁 OWNER", url="https://t.me/rohit_1888")
+                    InlineKeyboardButton("⚡️ ΛΒσυτ", callback_data="about"),
+                    InlineKeyboardButton("🍁 Λиιмє ωєєкєи∂ѕ", url="https://t.me/Anime_Weekends")
                 ]
             ]
         )
