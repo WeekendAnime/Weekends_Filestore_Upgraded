@@ -55,7 +55,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "ᴀʀᴀ ᴀʀᴀ!! {mention}\n\n<b> sᴏ ᴡʜᴀᴛ’s ᴡʀᴏɴɢ ᴡɪᴛʜ ᴛʜᴀᴛ? ɪ ʙᴇᴄᴀᴍᴇ ᴛʜᴇ sᴛᴜᴅᴇɴᴛ ᴄᴏᴜɴᴄɪʟ ᴘʀᴇsɪᴅᴇɴᴛ ᴛᴏ ᴡɪɴ ᴛʜᴇ ʜᴇᴀʀᴛ ᴏғ ᴛʜᴇ ɢɪʀʟ ɪ ʟᴏᴠᴇ. ᴀ ʀᴇᴀsᴏɴ ғᴀʀ ᴍᴏʀᴇ ɪᴍᴘʀᴏᴘᴇʀ ᴛʜᴀɴ ᴀɴʏ ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ.\n\nKindly ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>")")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "</b>ᴀʀᴀ ᴀʀᴀ!! {mention}\n\n<b> sᴏ ᴡʜᴀᴛ’s ᴡʀᴏɴɢ ᴡɪᴛʜ ᴛʜᴀᴛ? ɪ ʙᴇᴄᴀᴍᴇ ᴛʜᴇ sᴛᴜᴅᴇɴᴛ ᴄᴏᴜɴᴄɪʟ ᴘʀᴇsɪᴅᴇɴᴛ ᴛᴏ ᴡɪɴ ᴛʜᴇ ʜᴇᴀʀᴛ ᴏғ ᴛʜᴇ ɢɪʀʟ ɪ ʟᴏᴠᴇ. ᴀ ʀᴇᴀsᴏɴ ғᴀʀ ᴍᴏʀᴇ ɪᴍᴘʀᴏᴘᴇʀ ᴛʜᴀɴ ᴀɴʏ ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ.\n\nKindly ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>")")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>» ʙʏ @Ongoing_Weekends</b>")
