@@ -1,5 +1,5 @@
-#(©)Codexbotz
-#Recoded By @Its_Tartaglia_Childe
+#(©)Anime_Weekends
+#Recoded By @JeffreySama
 
 import base64
 import re
