@@ -1,6 +1,6 @@
-
 import os
 import asyncio
+import time 
 from pyrogram import Client, filters, __version__
 from pyrogram.enums import ParseMode
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
@@ -57,13 +57,15 @@ async def start_command(client: Client, message: Message):
         await temp_msg.delete()
 
         snt_msgs = []
-                for msg in messages:
+        for msg in messages:
             caption = ""
             if CUSTOM_CAPTION and msg.document:
                 caption = CUSTOM_CAPTION.format(
                     previouscaption="" if not msg.caption else msg.caption.html,
                     filename=msg.document.file_name
                 )
+            else:
+                caption = "" if not msg.caption else msg.caption.html
             reply_markup = None if DISABLE_CHANNEL_BUTTON else msg.reply_markup
 
             try:
