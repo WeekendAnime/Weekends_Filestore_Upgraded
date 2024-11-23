@@ -41,7 +41,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002244170363"
 TIME = int(os.environ.get("TIME", "600"))
 
 START_PIC = os.environ.get("START_PIC", "https://envs.sh/ALf.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/Gsx.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/Knf.jpg")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -57,7 +57,7 @@ except ValueError:
 #Force sub message 
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE", 
-    "ᴀʀᴀ ᴀʀᴀ!! {mention}\n\n<b> sᴏ ᴡʜᴀᴛ’s ᴡʀᴏɴɢ ᴡɪᴛʜ ᴛʜᴀᴛ? ɪ ʙᴇᴄᴀᴍᴇ ᴛʜᴇ sᴛᴜᴅᴇɴᴛ ᴄᴏᴜɴᴄɪʟ ᴘʀᴇsɪᴅᴇɴᴛ ᴛᴏ ᴡɪɴ ᴛʜᴇ ʜᴇᴀʀᴛ ᴏғ ᴛʜᴇ ɢɪʀʟ ɪ ʟᴏᴠᴇ. ᴀ ʀᴇᴀsᴏɴ ғᴀʀ ᴍᴏʀᴇ ɪᴍᴘʀᴏᴘᴇʀ ᴛʜᴀɴ ᴀɴʏ ʏᴏᴜ ᴍᴀʏ ʜᴀᴠᴇ.\n\nKindly ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>"
+    "ᴀʀᴀ ᴀʀᴀ!! {mention}\n\n<b>ʜᴇʏ {mention}ʏᴏᴜ'ʀᴇ ᴍɪssɪɴɢ ᴏᴜᴛ ᴏɴ sᴏᴍᴇ sᴇʀɪᴏᴜs ᴀᴄᴛɪᴏɴ.ᴛo ᴜɴʟᴏᴄᴋ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴀᴄᴄᴇss ғɪʟᴇs, ᴊᴏɪɴ ᴀʟʟ of ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʙᴇʟᴏᴡ: !</b>"
 )
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
