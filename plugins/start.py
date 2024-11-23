@@ -93,8 +93,8 @@ async def start_command(client: Client, message: Message):
 
         if SECONDS > 0:
             notification_msg = await message.reply(
-                f"<b>🌺 <u>Notice</u> 🌺</b>\n\n"
-                f"<b>This file will be deleted in {get_exp_time(SECONDS)}. Please save or forward it to your saved messages before it gets deleted.</b>"
+                f"<b>❤ Be Aware ❤</b>\n\n"
+                f"<b>This file will be deleted in {get_exp_time(SECONDS)}. Please save or forward it to your saved messages before it gets deleted.\n\nMust Join Our Channels\n\n🩶 @Anime_Weekends 🩶\n\n🩶 @Weebs_Weekends 🩶</b>"
             )
             await asyncio.sleep(SECONDS)
             for snt_msg in snt_msgs:
