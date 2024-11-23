@@ -40,7 +40,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002244170363"
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "600"))
 
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/ALf.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/KT7.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/Knf.jpg")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -57,7 +57,7 @@ except ValueError:
 #Force sub message 
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE", 
-    "ᴀʀᴀ ᴀʀᴀ!! {mention}\n\n<b>ʜᴇʏ ʏᴏᴜ'ʀᴇ ᴍɪssɪɴɢ ᴏᴜᴛ ᴏɴ sᴏᴍᴇ sᴇʀɪᴏᴜs ᴀᴄᴛɪᴏɴ.ᴛo ᴜɴʟᴏᴄᴋ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴀᴄᴄᴇss ғɪʟᴇs, ᴊᴏɪɴ ᴀʟʟ of ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʙᴇʟᴏᴡ: !</b>"
+    "ᴀʀᴀ ᴀʀᴀ!! {mention}\n\n<b>ᴀʀᴀ ʏᴏᴜ'ʀᴇ ᴍɪssɪɴɢ ᴏᴜᴛ ᴏɴ sᴏᴍᴇ sᴇʀɪᴏᴜs ᴀᴄᴛɪᴏɴ.ᴛo ᴜɴʟᴏᴄᴋ ᴀʟʟ ғᴇᴀᴛᴜʀᴇs ᴀɴᴅ ᴀᴄᴄᴇss ғɪʟᴇs, ᴊᴏɪɴ ᴀʟʟ of ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʙᴇʟᴏᴡ: !</b>"
 )
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
