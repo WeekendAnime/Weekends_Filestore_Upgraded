@@ -1,6 +1,6 @@
 
 
-**If you need any more modes in repo or If you find out any bugs, mention in <b>[sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://github.com/weebs_support)  ➻  [ᴍɪᴋᴇʏ](https://t.me/sewxiy) </b>**
+**If you need any more modes in repo or If you find out any bugs, mention in <b>[sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/Weebs_Weekends)  ➻  [Jҽϝϝɾҽყ ʂαɱα](https://t.me/JeffreySama) </b>**
 
 
 ### Features
