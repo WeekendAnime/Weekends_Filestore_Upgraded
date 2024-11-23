@@ -97,7 +97,7 @@ class Bot(Client):
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Anime_Weekends")
         self.LOGGER(__name__).info(f"""       
 
-
+  upgrade by @rohit_1888 on Tg
   ___ ___  ___  ___ ___ _    _____  _____  ___ _____ ___ 
  / __/ _ \|   \| __| __| |  |_ _\ \/ / _ )/ _ \_   _/ __|
 | (_| (_) | |) | _|| _|| |__ | | >  <| _ \ (_) || | \__ \
