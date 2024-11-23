@@ -40,7 +40,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002244170363"
 #Time in seconds for message delete, put 0 to never delete
 TIME = int(os.environ.get("TIME", "600"))
 
-START_PIC = os.environ.get("START_PIC", "https://envs.sh/ALf.jpg https://envs.sh/KIN.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/ALf.jpg")
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/Gsx.jpg")
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
