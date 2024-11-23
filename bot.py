@@ -7,7 +7,6 @@ import pyromod.listen
 from pyrogram import Client
 from pyrogram.enums import ParseMode
 import sys
-from Script import script
 from datetime import datetime
 from plugins.clone import restart_bots
 
