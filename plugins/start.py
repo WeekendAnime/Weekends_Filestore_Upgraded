@@ -12,8 +12,10 @@ from pyrogram.errors import FloodWait, UserIsBlocked, InputUserDeactivated
 
 from bot import Bot
 from config import ADMINS, FORCE_MSG, START_MSG, CUSTOM_CAPTION, DISABLE_CHANNEL_BUTTON, PROTECT_CONTENT, TIME
-from helper_func import subscribed, encode, decode, get_messages
+from helper_func import subscribed, encode, decode, get_messages, get_exp_time
 from database.database import add_user, del_user, full_userbase, present_user
+
+SECONDS = TIME
 
 
 
