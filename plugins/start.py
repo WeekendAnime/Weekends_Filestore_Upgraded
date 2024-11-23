@@ -100,7 +100,7 @@ async def start_command(client: Client, message: Message):
                 await asyncio.sleep(SECONDS)
                 try:
                     await sent_msg.delete()
-                    await notification_msg.edit("<b>Your file has been successfully deleted! 😼</b>")
+                    await notification_msg.edit("<b>уσυя fιℓє нαѕ вєєи ѕυccєѕѕfυℓℓу ∂єℓєтє∂! ♻️</b>")
                 except Exception as e:
                     print(f"Error deleting file: {e}")
     else:
