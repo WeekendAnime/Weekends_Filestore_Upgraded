@@ -1,6 +1,11 @@
 https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
 TgCrypto
 pyromod
+python-dotenv
+# --- For-Database ------------ #
 pymongo
+umongo
 dnspython
+# --- For-Web-Response ------- #
 aiohttp
+asyncio
