@@ -57,9 +57,13 @@ async def start_command(client: Client, message: Message):
         await temp_msg.delete()
 
         snt_msgs = []
-        for msg in messages:
-            original_caption = msg.caption.html if msg.caption else ""
-            caption = f"{original_caption}\n\n{CUSTOM_CAPTION}" if CUSTOM_CAPTION else original_caption
+                for msg in messages:
+            caption = ""
+            if CUSTOM_CAPTION and msg.document:
+                caption = CUSTOM_CAPTION.format(
+                    previouscaption="" if not msg.caption else msg.caption.html,
+                    filename=msg.document.file_name
+                )
             reply_markup = None if DISABLE_CHANNEL_BUTTON else msg.reply_markup
 
             try:
